@@ -1,7 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+int square(int x){
+    return (x*x);
+}
 int main(){
     system("cls");
-    vector<int>  v1;
+    cout<<square(5);
 }
